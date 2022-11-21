@@ -1,0 +1,34 @@
+{
+    "students": {
+        "student": {
+            "name":"Yeremia",
+            "surname":"Al-Rajeez",
+            "email":"hammama@gmail.com",
+            "dni":"123213213A"
+        },
+        "student": {
+            "name":"Concepcion",
+            "surname":"Del Bosque",
+            "email":"cristorey@hotmail.es",
+            "dni":"7777777O"
+        },
+        "student": {
+            "name":"Oracio",
+            "surname":"Despacio",
+            "email":"trankilito@outlook.es",
+            "dni":"4334343434R"
+        },
+        "student": {
+            "name":"Doctor",
+            "surname":"Bacterio",
+            "email":"eeeeeeaa@yahoo.com",
+            "dni":"765543234F"
+        },
+        "student": {
+            "name":"Angleo",
+            "surname":"Apatrido",
+            "email":"rockanrol@yopmail.com",
+            "dni":"13123423K"
+        }
+    }
+}
