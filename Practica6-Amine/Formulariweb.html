@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulari</title>
+        <!--Formulari fet per Amine Smairy-->
+    </head>
+    <body>
+        <form>
+        <!--Formulari idèntic al de la pràctica 6 excepte pels inputs i el textarea que estan per sota dels seus labels-->
+            <label>Nom:</label><br>
+            <input type="text" id="nom" name="nom"><br>
+            <label>Cognom:</label><br>
+            <input type="text" id="cognom" name="cognom"><br>
+            <label>Edat:</label><br>
+            <input type="text" id="edat" name="edat"><br><br>
+
+            <p>Cicle formatiu que vols cursar l'any vinent:</p>
+            <label for="DAM">DAM</label>    
+            <input type="radio" id="dam" name="cicleformatiu" value="DAM" checked><br>
+            <label for="ASIX">ASIX</label>
+            <input type="radio" id="asix" name="cicleformatiu" value="ASIX"><br>
+            <label for="Altre...">Altre...</label>
+            <input type="radio" id="altre..." name="cicleformatiu" value="Altre..."><br><br>
+            
+            <p>Marca les teves aficions:</p>
+            <label for="Estudiar">Estudiar</label>    
+            <input type="checkbox" id="estudiar" name="aficions" value="Estudiar" checked><br>
+            <label for="ASICS">ASIX</label>
+            <input type="checkbox" id="asix" name="aficions" value="ASIX"><br>
+            <label for="Llibres">Llibres</label>
+            <input type="checkbox" id="llibres" name="aficions" value="Llibres"><br>
+            <label for="Jugar a Magic">Jugar a Magic</label>    
+            <input type="checkbox" id="jugaramagic" name="aficions" value="Jugar a Magic"><br>
+            <label for="Fer burilles">Fer burilles</label>    
+            <input type="checkbox" id="ferburilles" name="aficions" value="Fer burilles"><br>
+            <label for="Altres">Altres</label><br>    
+            <textarea name="textarea" rows="10" cols="50">Especifico quines</textarea><br><br>
+            <label for="estandardhtml">L'estàndard d'HTML que més m'agrada</label>
+            <select name="estandardhtml" id="estandardhtml">
+                <option value="html6">HTML6</option>
+                <option value="html4.01">HTML 4.01</option>
+                <option value="xhtml1.0">XHTML 1.0</option>
+                <option value="html5">HTML 5</option>
+            </select>               
+          </form>      
+    </body>
+</html>
