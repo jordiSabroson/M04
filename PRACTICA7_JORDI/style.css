@@ -1,0 +1,155 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+/*Valors generals per tot l'HTML*/
+*{
+    text-decoration: none;
+    font-family: 'Product Sans', sans-serif; 
+    font-size: 14px;
+}
+body {
+    
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* Estil de la barra de navegació superior*/
+nav {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 13px;
+    margin-top: 3px;    
+}
+nav a {
+    color: black;
+    display: inline-block;
+    padding: 5px 8px;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+nav img {
+    height: 15px;
+    padding: 0px 20px;
+}
+nav button {
+    color: white;
+    background-color: #1a73e8;
+    padding: 10px 27px;
+    border-radius: 5px;
+    border: 0px solid white;
+}   
+nav button:hover {
+    opacity: .8;
+}
+/* Logo gran de Google */
+#titol {
+    margin-top: 100px;
+    height: 95px;
+    display: block;
+}
+/* Estil de la barra de búsqueda i dels logos que té dins*/
+#barra {
+    width: 580px;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.barra-busqueda {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 140px;
+    width: 400px;
+    outline: none;
+}
+.lupa {
+    height: 15px;
+    opacity: .3;
+    position: absolute;
+    top: 15px;
+    left: 17px;
+}
+.teclat {
+    height: 20px;
+    position: absolute;
+    top: 11px;
+    right: 100px;
+    opacity: .5;
+}
+.micro {
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    right: 57px;
+}
+.camara {
+    position: absolute;
+    height: 20px;
+    top: 12px;
+    right: 18px;
+}
+/* Botons de sota la barra */
+.cerca {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: rgb(27, 27, 27);
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+}
+/* Estil de les opcions d'idioma de la pàgina*/
+#idioma {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(29, 27, 27);
+}
+#idioma a {
+    margin-left: 5px;
+    color: #1a0dab;
+}
+/* Estil del peu de pàgina */
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 1px
+}
+footer h4 {
+    color: rgba(141,141,146,255);
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 33px;
+    border: 0px;
+}
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 12px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#peu {
+    display: flex;
+    border-top: 0.5px solid lightgrey;
+    padding: 4px;
+    color: rgba(141,141,146,255)
+}
+.peu-esquerra {
+    padding-left: 20px;
+    flex: 1;
+}
+.peu-dreta {
+    padding-right: 20px;
+}
