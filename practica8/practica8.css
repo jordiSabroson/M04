@@ -1,9 +1,9 @@
 body{
     margin-left: 0px;
-}
-#capecera{
+}                                             /*cada etiqueta tiene una id o una classe es para que ahora puedo llama bien y facil */
+#capecera{                                  /*el "#" son los ids y "." son los classes sobre todo estoy tocado el sidio que muestra en pagina*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;      
     flex-direction: row;
 }
 div .gmail{
@@ -15,7 +15,7 @@ div .gmail{
     padding: 9px 23px;
     background-color: #1a73e8;;;
     border-radius: 3px;
-    justify-content: center;
+    justify-content: center;                /*por ejemplo tanbien esta iportamte es los contiener y items.aqui estoy modificador contieners*/
     align-items: center;
     display: flex;
     margin-left: 10px;
