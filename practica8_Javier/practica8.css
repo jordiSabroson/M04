@@ -1,0 +1,86 @@
+body{
+    margin-left: 0px;
+}                                             /*cada etiqueta tiene una id o una classe es para que ahora puedo llama bien y facil */
+#capecera{                                  /*el "#" son los ids y "." son los classes sobre todo estoy tocado el sidio que muestra en pagina*/
+    display: flex;
+    justify-content: flex-end;      
+    flex-direction: row;
+}
+div .gmail{
+    padding: 4px;
+    margin: 4px;
+}
+#sessio{
+    color: white;
+    padding: 9px 23px;
+    background-color: #1a73e8;;;
+    border-radius: 3px;
+    justify-content: center;                /*por ejemplo tanbien esta iportamte es los contiener y items.aqui estoy modificador contieners*/
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+#menu{
+    padding: 3px 13px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#google{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 7%;
+}
+.dni{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#espanya{
+    color: #70757a;
+    background-color: #dadce0;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+#footer{
+    background-color: #dadce0;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #70757a;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#esquierra{
+    display: flex;
+    flex-direction: row;
+    color: #70757a;
+    padding: 0 20px;;
+    font-size: 15px;
+}
+footer div div p{
+    padding-left: 20px;
+}
+#derecha{
+    display: flex;
+    flex-direction: row;
+    color: #70757a;
+    padding: 0 20px;;
+    font-size: 15px;
+}
+footer{
+    position:fixed; 
+    bottom:0; 
+    z-index:999999;
+    width: 100%;
+}
+.dni img{
+    width: 150px;
+    height: 180px;
+}
