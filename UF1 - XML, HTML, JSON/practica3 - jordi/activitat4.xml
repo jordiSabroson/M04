@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Fitxer XML que desa informació sobre un llibre d'una llibreria-->
+
+<bookstore>
+    <book>
+        <title>Souvenir de Barcelona</title>
+        <publisher>Arpaviejas</publisher>
+        <cover>Dura</cover>
+        <price>6.99</price>
+    </book>
+</bookstore>
