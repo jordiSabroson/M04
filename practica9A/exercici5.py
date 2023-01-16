@@ -1,17 +1,17 @@
 areas = ['cuina', 7.88, 'menjador', 13.0, 'terrassa', 20.34, 'lavabo',
 6.55, 'habitació1', 7.98, 'habitació2', 12, 'rebedor', 4.23]
 #Imprimir el segon element
-print(areas[2])
+print(areas[1])
 #Imprimir l’últim element
 print(areas[-1])
 #Imprimir l’àrea de la terrassa
-print(areas[4])
+print(areas[5])
 #Imprimir del primer element al tercer element
 print(areas[:3])
 #Imprimir del tercer element a l’últim
-print(areas[3:])
+print(areas[2:])
 #Imprimir el total de l'àrea de les dues habitacions
-print(areas[8]+' '+areas[-4])
+print(areas[9]+areas[-3])
 #Modificar l’àrea del lavabo i imprimir la nova list area
 areas[6]='baño'
 print(areas)
